@@ -53,6 +53,16 @@ android {
     }
 }
 
+task clonePrivateFiles(type: Copy) {
+    from('src/main/assets/private/google-services.json')
+    into './'
+}
+
+// This is needed to avoid duplicate in demo targets
+project.afterEvaluate {
+    getTasks().getByName("preBuild").finalizedBy(clonePrivateFiles)
+}
+
 repositories {
     mavenCentral()
     google()

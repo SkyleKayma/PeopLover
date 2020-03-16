@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme -->
+
+    <style name="PeopLoverTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/autoColorPrimary</item>
+        <item name="colorPrimaryDark">@color/autoColorPrimaryDark</item>
+        <item name="colorAccent">@color/autoColorAccent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PeopLover</string>
+
+    <!-- Date/Time Format -->
+    <string name="date_and_time_format">"dd-MM-yy 'à' HH'h'mm"</string>
+
+    <!-- Main -->
+    <string name="main_added_at_format">Ajouté le %s</string>
+</resources>

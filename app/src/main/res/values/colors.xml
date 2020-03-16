@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="autoColorPrimary">@color/autoColorWhite</color>
+    <color name="autoColorPrimaryDark">@color/autoColorGreyDarkText</color>
+    <color name="autoColorAccent">@color/autoColorBlue</color>
+
+    <color name="autoColorWhite">#FFFFFF</color>
+    <color name="autoColorBlue">#6563ff</color>
+    <color name="autoColorRed">#F43E44</color>
+    <color name="autoColorGreen">#81D385</color>
+    <color name="autoColorGreyLightText">#9C9E9E</color>
+    <color name="autoColorGreyText">#3E3F3D</color>
+    <color name="autoColorGreyDarkText">#161717</color>
+    <color name="autoColorGreyBackground">#E7E8E9</color>
+</resources>
